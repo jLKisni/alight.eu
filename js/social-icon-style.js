@@ -43,6 +43,9 @@
 					$(this).css({'width':'0px','visibility':'hidden'});
 				});
 
+
+				
+
 			$('.dropdown').hover(function() {
 		        $(this).addClass('open');
 		    }, function() {

@@ -9,12 +9,12 @@ main,body,html{
 	font-familyL:'Open Sans',sans-serif;
 	color:$color-black;
 	height:auto;
+
 }
 
 .clearfix{
 	clear:both;
 }
-
 
 
 .content-position{
@@ -26,4 +26,10 @@ main,body,html{
 		}
 	}
 }
+
+main{
+	max-width:1200px;
+	margin:0 auto;
+}
+
 

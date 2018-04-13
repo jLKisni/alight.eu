@@ -2,17 +2,14 @@
 	margin-right:100px;
 }
 
-.nav-brand{
-	
-	a{
-	 max-width: 180px;
-     max-height: 64px;
-
+.navbar-brand{
+	 
 		img{
-			margin-top: 8px;
-		   
+      margin-top: 8px;
+      width: 100%;
+      min-width: 125px;        
 		}
-	}
+	
 }
 
 
@@ -34,7 +31,8 @@ display: block;
 		margin-right:5px;
 		
 		.nav-link{
-
+      
+      max-width:1100px;
 			text-transform:none;
 			font-weight:500;
 			color: $color-light-black !important;
@@ -87,27 +85,6 @@ position: relative;
 }
 
 
-/* stroke */
-.stroke ul li a{
-  position: relative;
-}
-.stroke ul li a:after{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #aaa;
-  height: 2px;
-}
-.stroke ul li a:hover:after {
-  width: 100%;
-}
-
-
 .dropdown-menu a:after{
 position: absolute;
   bottom: 0;
@@ -122,13 +99,16 @@ position: absolute;
 
 }
 
+.drop-menu a{
+  width:auto;
+}
 
 
 
 .dropdown-menu:before {
     content:"";
     position: absolute;
-    left: 14px;
+    left: 31px;
     top: -10px;
     width: 0;
     height: 0;
@@ -137,23 +117,12 @@ position: absolute;
     border-color: transparent transparent $color-gray transparent;
     z-index:9999;
 }
-.dropdown-menu:after {
-    content:"";
-    position: absolute;
-    right: 4px;
-    top: -22px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 17px 17px 17px;
-    border-color: transparent transparent #ffffff transparent;
-    z-index:9998;
-}
+
 .dropdown-menu {
 
 	opacity:0.9;
     background: #fff;
-    border: 2px solid $color-gray;
+ 
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     position: absolute;
     margin: 0;
@@ -162,3 +131,14 @@ position: absolute;
     width: 200px;
     z-index: 99999;
 }
+
+
+
+
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px) { .nav-link  { font-size:14px;}} }
+@media (max-width:768px) { .nav-link  { font-size:14px; .dropdown-menu{margin:0 auto; dropdown-menu:before{left:255px; top:28px;}}}
+@media (min-width:801px) { .nav-link  { font-size:14px;}}
+@media (min-width:1025px) { .nav-link { font-size:12px; }}
+@media (min-width:1281px) { .nav-link { font-size:14px; } }
+

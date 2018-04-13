@@ -17,6 +17,10 @@ main, body, html {
   color: #365C79;
   font-weight: 300; }
 
+main {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 .fa {
   padding-top: 5px;
   margin-right: 3px;
@@ -123,11 +127,10 @@ main, body, html {
 .mg-right {
   margin-right: 100px; }
 
-.nav-brand a {
-  max-width: 180px;
-  max-height: 64px; }
-  .nav-brand a img {
-    margin-top: 8px; }
+.navbar-brand img {
+  margin-top: 8px;
+  width: 100%;
+  min-width: 125px; }
 
 .dropdown:hover .dropdown-menu {
   display: block; }
@@ -141,6 +144,7 @@ main, body, html {
   .navbar-nav .nav-item {
     margin-right: 5px; }
     .navbar-nav .nav-item .nav-link {
+      max-width: 1100px;
       text-transform: none;
       font-weight: 500;
       color: #939393 !important; }
@@ -175,25 +179,6 @@ main, body, html {
 .active {
   border-bottom: 1px solid #646464; }
 
-/* stroke */
-.stroke ul li a {
-  position: relative; }
-
-.stroke ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #aaa;
-  height: 2px; }
-
-.stroke ul li a:hover:after {
-  width: 100%; }
-
 .dropdown-menu a:after {
   position: absolute;
   bottom: 0;
@@ -205,6 +190,9 @@ main, body, html {
   color: transparent;
   background: #aaa;
   height: 1px; }
+
+.drop-menu a {
+  width: auto; }
 
 .dropdown-menu:before {
   content: "";
@@ -218,22 +206,9 @@ main, body, html {
   border-color: transparent transparent #efefef transparent;
   z-index: 9999; }
 
-.dropdown-menu:after {
-  content: "";
-  position: absolute;
-  right: 4px;
-  top: -22px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 17px 17px 17px;
-  border-color: transparent transparent #ffffff transparent;
-  z-index: 9998; }
-
 .dropdown-menu {
   opacity: 0.9;
   background: #fff;
-  border: 2px solid #efefef;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   position: absolute;
   margin: 0;
@@ -241,6 +216,31 @@ main, body, html {
   right: 1px;
   width: 200px;
   z-index: 99999; }
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+
+@media (min-width: 480px) {
+  .nav-link {
+    font-size: 14px; }
+    .nav-link .dropdown-menu {
+      margin: 0 auto; } }
+
+@media (min-width: 679px) {
+  .nav-link {
+    font-size: 14px; } }
+
+@media (min-width: 801px) {
+  .nav-link {
+    font-size: 14px; } }
+
+@media (min-width: 1025px) {
+  .nav-link {
+    font-size: 12px; } }
+
+@media (min-width: 1281px) {
+  .nav-link {
+    font-size: 14px; } }
 
 .jumbotron {
   background: url("../img/background_light.jpg");
