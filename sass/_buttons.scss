@@ -1,0 +1,33 @@
+
+
+/*Orange Color Buttons*/
+.btn-2{
+
+    padding: 9px 15px 9px 15px !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+    border-radius: 3px !important;
+    text-transform: uppercase !important;
+    display: inline-block !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    border: 0px !important;
+	
+}
+.orange{
+	background-color: $color-orange;
+	color: $color-white !important;
+	text-transform : uppercase !important;
+	font-weight: 500;
+	min-width: 6em;
+}
+
+.blue{
+	background-color: $twitter-color;
+	color: $color-white !important;
+	text-transform : uppercase !important;
+	font-weight: 500;
+	min-width: 6em;
+}

@@ -1,0 +1,496 @@
+/* Variable Colors */
+a {
+  text-decoration: uppercase; }
+
+.btn:hover {
+  opacity: 0.7; }
+
+main, body, html {
+  font-familyL: 'Open Sans',sans-serif;
+  color: #646464;
+  height: auto; }
+
+.clearfix {
+  clear: both; }
+
+.content-position .text-center h2 {
+  color: #365C79;
+  font-weight: 300; }
+
+.fa {
+  padding-top: 5px;
+  margin-right: 3px;
+  font-size: 13px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white; }
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white; }
+
+.fa-google {
+  background: #dd4b39;
+  color: white; }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white; }
+
+.fa-youtube {
+  background: #bb0000;
+  color: white; }
+
+.fa-instagram {
+  background: #125688;
+  color: white; }
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white; }
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+.fa-skype {
+  background: #00aff0;
+  color: white; }
+
+.fa-android {
+  background: #a4c639;
+  color: white; }
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white; }
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white; }
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white; }
+
+.fa-vine {
+  background: #00b489;
+  color: white; }
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white; }
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white; }
+
+.fa-flickr {
+  background: #f40083;
+  color: white; }
+
+.fa-yahoo {
+  background: #430297;
+  color: white; }
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white; }
+
+.fa-reddit {
+  background: #ff5700;
+  color: white; }
+
+.fa-rss {
+  background: #ff6600;
+  color: white; }
+
+.fa-envelope-square {
+  padding-top: 5px;
+  margin-right: 3px;
+  font-size: 20px;
+  color: #999; }
+
+.mg-right {
+  margin-right: 100px; }
+
+.nav-brand a {
+  max-width: 180px;
+  max-height: 64px; }
+  .nav-brand a img {
+    margin-top: 8px; }
+
+.dropdown:hover .dropdown-menu {
+  display: block; }
+
+.ml-auto {
+  left: auto !important;
+  right: 0px; }
+
+.navbar-nav {
+  grid-direction: row; }
+  .navbar-nav .nav-item {
+    margin-right: 5px; }
+    .navbar-nav .nav-item .nav-link {
+      text-transform: none;
+      font-weight: 500;
+      color: #939393 !important; }
+
+.search {
+  position: relative; }
+  .search input[type=text] {
+    visibility: hidden;
+    width: 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 33px 12px 20px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease; }
+  .search input[type=text]:hover {
+    width: 250px; }
+  .search input[type=text]:focus {
+    width: 250px; }
+
+.search .fa-search {
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  font-size: 26px; }
+
+.active {
+  border-bottom: 1px solid #646464; }
+
+/* stroke */
+.stroke ul li a {
+  position: relative; }
+
+.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 2px; }
+
+.stroke ul li a:hover:after {
+  width: 100%; }
+
+.dropdown-menu a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px; }
+
+.dropdown-menu:before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #efefef transparent;
+  z-index: 9999; }
+
+.dropdown-menu:after {
+  content: "";
+  position: absolute;
+  right: 4px;
+  top: -22px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 17px 17px 17px;
+  border-color: transparent transparent #ffffff transparent;
+  z-index: 9998; }
+
+.dropdown-menu {
+  opacity: 0.9;
+  background: #fff;
+  border: 2px solid #efefef;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  margin: 0;
+  top: 3.1em;
+  right: 1px;
+  width: 200px;
+  z-index: 99999; }
+
+.jumbotron {
+  background: url("../img/background_light.jpg");
+  color: #fff; }
+
+article h5 {
+  color: #365C79 !important; }
+
+article p {
+  color: #646464 !important; }
+
+.alight-jumbotron {
+  background: url("../img/meeting.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: auto; }
+  .alight-jumbotron .container img {
+    margin-top: -10px; }
+  .alight-jumbotron .container h2 {
+    color: #365C79 !important; }
+  .alight-jumbotron .container h5 {
+    color: #728DA1 !important; }
+  .alight-jumbotron .container p {
+    color: #646464;
+    line-height: 20px;
+    font-size: 15px; }
+
+.alight-solutions .container img {
+  margin-top: -10px; }
+
+.alight-solutions .container h2 {
+  font-weight: 400;
+  color: #365C79 !important; }
+
+.alight-solutions .container h5 {
+  color: #728DA1 !important; }
+
+.alight-solutions .container p {
+  color: #646464;
+  line-height: 20px;
+  font-size: 15px; }
+
+.alight-testimonial {
+  background: url("../img/People.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: auto; }
+  .alight-testimonial h2 {
+    color: #fff;
+    font-weight: 400; }
+  .alight-testimonial .alight-testimonial-image {
+    clear: both;
+    color: #fff; }
+    .alight-testimonial .alight-testimonial-image .testimonial-user {
+      display: inline; }
+      .alight-testimonial .alight-testimonial-image .testimonial-user .testimonial-user-image {
+        float: left; }
+      .alight-testimonial .alight-testimonial-image .testimonial-user .testimonial-user-profile h5 {
+        font-weight: 500; }
+      .alight-testimonial .alight-testimonial-image .testimonial-user .testimonial-user-profile p {
+        font-size: 16px;
+        margin-top: -5px; }
+
+.alight-news {
+  margin: 0 auto;
+  width: 97%;
+  height: auto; }
+  .alight-news img {
+    width: 100%;
+    height: 136px;
+    border-radius: 3px; }
+  .alight-news h4 {
+    color: #365C79;
+    font-weight: 500; }
+  .alight-news h5 {
+    color: #365C79; }
+  .alight-news p {
+    line-height: 1.4em;
+    font-size: 14px;
+    color: #646464; }
+
+.alert-light-gray {
+  background: #efefef;
+  color: #365C79; }
+  .alert-light-gray .testimonial-qoute img {
+    width: 34px;
+    height: 28px; }
+  .alert-light-gray p {
+    text-align: center;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 15px; }
+
+.alight-twitter {
+  background: url("../img/twitter.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: auto; }
+  .alight-twitter .alight-twitter-logo h2 {
+    color: #fff; }
+    .alight-twitter .alight-twitter-logo h2 .text-gray {
+      color: #efefef !important;
+      font-weight: 300; }
+
+.twitter-container {
+  margin: 0 auto;
+  width: 60%;
+  color: #fff; }
+
+.alight-contact-form .container h2 {
+  font-weight: 300;
+  color: #365C79; }
+
+.alight-contact-form .container figure {
+  margin-top: -20px; }
+
+.alight-contact-form .form-details p {
+  line-height: 20px;
+  font-size: 15px; }
+
+.alight-contact-form form small {
+  font-size: 9px; }
+
+.alight-contact-form .alight-background-image-textbox-required {
+  background-image: url("../img/textbox-required.png");
+  background-size: 25px 27px;
+  background-repeat: no-repeat;
+  background-position: right top; }
+
+.alight-contact-form .contact-details {
+  border: 1px solid #a4a6a6;
+  box-shadow: 1px 0 0 #a4a6a6; }
+  .alight-contact-form .contact-details .content-details h5 {
+    color: #365C79; }
+  .alight-contact-form .contact-details .content-details span {
+    color: #365C79; }
+
+.alight-company-section {
+  background: url("../img/twitter.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: auto; }
+  .alight-company-section h2 {
+    color: #fff; }
+  .alight-company-section figure {
+    margin-top: -10x; }
+  .alight-company-section .career-description {
+    padding: 20px 0;
+    line-height: 20px; }
+    .alight-company-section .career-description p {
+      color: #fff;
+      font-size: 16px; }
+  .alight-company-section .col-md-5 img {
+    width: 100%;
+    height: 269px;
+    margin-bottom: 60px;
+    margin-left: 25px;
+    float: right; }
+
+.alight-company-position {
+  margin: 30px; }
+  .alight-company-position .text-center h1 {
+    color: #365C79;
+    font-weight: 300; }
+  .alight-company-position h4 {
+    color: #333; }
+  .alight-company-position .social-icons {
+    margin-bottom: 10px; }
+  .alight-company-position p {
+    font-size: 16px; }
+
+.position-details .text-center h2 {
+  color: #365C79;
+  font-weight: 300; }
+
+.position-details .position-desc-list h5 {
+  color: #365C79; }
+
+.net-carrer-image {
+  background: url("../img/net_career.png") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 350px; }
+
+.case-section .case-container {
+  width: 80%;
+  margin: 0 auto; }
+  .case-section .case-container h2 {
+    font-weight: 300;
+    color: #365C79; }
+  .case-section .case-container figure {
+    margin-top: -20px; }
+  .case-section .case-container h4, .case-section .case-container h5 {
+    color: #365C79; }
+  .case-section .case-container p {
+    font-size: 14px;
+    line-height: 20px; }
+
+/*Orange Color Buttons*/
+.btn-2 {
+  padding: 9px 15px 9px 15px !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: #FFFFFF !important;
+  border-radius: 3px !important;
+  text-transform: uppercase !important;
+  display: inline-block !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  border: 0px !important; }
+
+.orange {
+  background-color: #F47C28;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  font-weight: 500;
+  min-width: 6em; }
+
+.blue {
+  background-color: #3dbfea;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  font-weight: 500;
+  min-width: 6em; }
+
+footer {
+  background: #292d30;
+  width: 100%;
+  height: auto; }
+  footer .social-media a {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin: 2px; }
+  footer .social-media .twitter-icon {
+    background: url("../img/footer/twitter.png") no-repeat center center; }
+  footer .social-media .facebook-icon {
+    background: url("../img/footer/facebook.png") no-repeat center center; }
+  footer .social-media .linkedin-icon {
+    background: url("../img/footer/linkedin.png") no-repeat center center; }
+  footer .social-media .googleplus-icon {
+    background: url("../img/footer/googleplus.png") no-repeat center center; }
+  footer .nav-footer {
+    color: #fff; }
+    footer .nav-footer a {
+      font-size: 10px;
+      color: #fff;
+      margin-right: 5px;
+      text-decoration: none; }
+  footer p {
+    font-size: 11px;
+    color: #fff; }

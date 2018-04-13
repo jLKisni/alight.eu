@@ -1,0 +1,29 @@
+a{
+	text-decoration:uppercase;
+}
+
+.btn:hover{
+	opacity:0.7;
+}
+main,body,html{
+	font-familyL:'Open Sans',sans-serif;
+	color:$color-black;
+	height:auto;
+}
+
+.clearfix{
+	clear:both;
+}
+
+
+
+.content-position{
+	
+	.text-center{
+		h2{
+			color :$color-blue;
+			font-weight:300;
+		}
+	}
+}
+
